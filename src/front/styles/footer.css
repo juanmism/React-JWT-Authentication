@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-
-
-.title, h4{
+.tittle{
     font-family: 'Shadows Into Light', cursive;
-}
-
-h4{
-    padding-top: 20px;
-}
-.monster-bg{
-    width: 60%;
 }
