@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/logged.css";
-import monster from "../../img/monster2.png"
-import monster5 from "../../img/monster5.png"
+import foto2 from "../../img/foto2.jpg"
+import foto3 from "../../img/foto3.jpg"
 
 export const Logged = () => {
     const { store, actions } = useContext(Context);
@@ -22,14 +22,14 @@ export const Logged = () => {
     return (
     <div> {store.token && store.token != "" && store.token != undefined ? (
       <div className="center">
-        <h1 >You are in The Cutie Zone </h1>
-        <h4> Press log out if there´s to much cuteness for you!</h4>
-        <img className="monster2" src={monster} alt="a very cute monster"/> 
+        <h1 >I see you got it </h1>
+        <h4> Press log out to see if the achievement is complete!</h4>
+        <img className="monster2" src={foto2} alt="a very cute monster"/> 
       </div>
     ) : (
       <div className="center">
-        <h2>You need to login or register to enter the cutie zone</h2>
-        <img className="monster5" src={monster5} alt="a very cute green monster"/>
+        <h2>You need to login or register to enter to private zone</h2>
+        <img className="monster5" src={foto3} alt="a very cute green monster"/>
       </div>
     )}
     </div> 

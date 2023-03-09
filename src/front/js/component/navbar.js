@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Context } from "../store/appContext";
 import "../../styles/navbar.css";
-import monster from "../../img/monster4.png"
 
 export const Navbar = () => {
 	const { store, actions } = useContext(Context);
@@ -14,9 +13,6 @@ export const Navbar = () => {
 	}
 	return (
 		<nav className="navbar navbar-light ">
-			<div>
-			<img src={monster} alt="a very cute pig with winter clothes" className="piggy"/>
-			</div>
 			<div className="container">
 				<div className="ml-auto">
 					<Link to="/">

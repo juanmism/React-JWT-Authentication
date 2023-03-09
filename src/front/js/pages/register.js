@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { useNavigate } from "react-router-dom";
 import "../../styles/register.css";
-import monster4 from "../../img/monster4.png"
+import foto5 from "../../img/foto5.jpg"
 
 
 
@@ -20,10 +20,10 @@ export const Register = ()=>{
     return (
         <div className="wrapper">
             <div className="logo">
-                <img src={monster4} alt="a very cut pig with winter clothes" />
+                <img src={foto5} alt="a very cut pig with winter clothes" />
             </div>
             <div className="text-center mt-4 name">
-                Sign up to be a cutie!
+                Sign up to start!
             </div>
             <div className="form-field d-flex align-items-center">
                 <span className="far fa-user"></span>

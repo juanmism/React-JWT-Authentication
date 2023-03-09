@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../store/appContext";
 import "../../styles/login.css";
-import monster4 from "../../img/monster4.png";
+import foto4 from "../../img/foto4.jpg";
 import { Link } from "react-router-dom";
 
 export const Login = () => {
@@ -20,9 +20,9 @@ export const Login = () => {
   return (
     <div className="wrapper">
       <div className="logo">
-        <img src={monster4} alt="a very cut pig with winter clothes" />
+        <img src={foto4} alt="a very cut pig with winter clothes" />
       </div>
-      <div className="text-center mt-4 name">The Cutie Zone</div>
+      <div className="text-center mt-4 name">Let´s Start</div>
       <div className="form-field d-flex align-items-center">
         <span className="far fa-user"></span>
         <input
